@@ -1,4 +1,4 @@
-import fileReader from "./fileReader";
+import fileReader from ".util/fileReader";
 
 export default async blob => {
     const blobText = await fileReader(blob);
